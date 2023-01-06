@@ -15,6 +15,9 @@
     border-radius: 5px;
     background: #fd6e0a;
 }
+section{
+    margin-top: 130px;
+}
 .header{
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url(../images/developer.png);
@@ -25,7 +28,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -69,20 +72,20 @@ main{
 }
 /* about section styles start */
 .about{
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
-    text-align: center;
+
 }
 .section-title{
-
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 
 }
 .section-description{
+    text-align: center;
     color:#757575;
     font-size: 18px;
     margin-bottom: 30px;
@@ -101,3 +104,25 @@ main{
     color: #474747;
 }
 /* about section styles end */
+/* what i do section */
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+/* resume styles */
