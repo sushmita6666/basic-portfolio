@@ -52,6 +52,7 @@ nav li{
     display: flex;
     align-items: center;
     margin: 0 200px;
+    
 }
 .banner-title{
     font-weight: 700;
